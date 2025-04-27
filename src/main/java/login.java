@@ -176,7 +176,7 @@ public class login extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("KLD MEDICAL ");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\6scee\\Downloads\\dl\\kldnobg (1).png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Code\\Projects\\MEDICAL-APPOINTMENT\\KLDHMS\\image\\kldlogo - loginsignup.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -256,7 +256,9 @@ public class login extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null,"Please enter a password!");
         }
         else if(jtuser.getText().contains("cedrickg")&& jpassword.getText().contains("pogi123")){
-            JOptionPane.showMessageDialog(null,"Welcome to KLD HEALTH MANAGEMENT SYSTEMS");
+           this.setVisible(false);
+    
+    new homep().setVisible(true);
         }
         else{
             JOptionPane.showMessageDialog(null,"Wrong Username or Password");

@@ -168,7 +168,7 @@ public class signup extends javax.swing.JFrame {
                 .addGap(63, 63, 63))
         );
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\6scee\\Downloads\\dl\\kldnobg (1).png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Code\\Projects\\MEDICAL-APPOINTMENT\\KLDHMS\\image\\kldlogo - loginsignup.png")); // NOI18N
 
         jLabel8.setBackground(new java.awt.Color(255, 255, 255));
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N

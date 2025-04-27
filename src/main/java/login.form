@@ -293,7 +293,7 @@
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\6scee\Downloads\dl\kldnobg (1).png"/>
+              <Image iconType="2" name="C:\Code\Projects\MEDICAL-APPOINTMENT\KLDHMS\image\kldlogo - loginsignup.png"/>
             </Property>
           </Properties>
         </Component>

@@ -19,7 +19,7 @@ public class login extends javax.swing.JFrame {
     public login() {
         initComponents();
         setLocationRelativeTo(null);
-        setResizable(false);
+        
         
     }
 
@@ -255,7 +255,7 @@ public class login extends javax.swing.JFrame {
         } else if(jpassword.getText().equals("")){
             JOptionPane.showMessageDialog(null,"Please enter a password!");
         }
-        else if(jtuser.getText().contains("cedrickg")&& jpassword.getText().contains("pogi123")){
+        else if(jtuser.getText().contains("admin123")&& jpassword.getText().contains("admin123")){
            this.setVisible(false);
     
     new homep().setVisible(true);
